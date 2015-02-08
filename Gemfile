@@ -1,4 +1,6 @@
-source 'https://rubygems.org'
+source "http://rubygems.org"
 
-# Specify your gem's dependencies in duckProject.gemspec
-gemspec
+gem 'simplecov', :require => false, :group => :test
+gem 'rake'
+gem 'rspec'
+gem 'colorize'
